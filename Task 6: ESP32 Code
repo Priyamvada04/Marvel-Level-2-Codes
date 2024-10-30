@@ -12,7 +12,7 @@ String apiKey = "your_thingspeak_api_key";
 
 // DHT sensor configuration
 #define DHTPIN 4          // GPIO pin where DHT sensor is connected
-#define DHTTYPE DHT11     // DHT 22 (AM2302)
+#define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
