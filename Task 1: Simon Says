@@ -46,7 +46,7 @@ void lightLed(byte ledIndex) {
 void playSequence() {
   for (int i = 0; i < gameIndex; i++) {
     byte currentLed = gameSequence[i];
-    lightLedAndPlayTone(currentLed);
+    lightLed(currentLed);
     delay(50);
   }
 }
